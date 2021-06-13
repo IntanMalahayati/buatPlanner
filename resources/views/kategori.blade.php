@@ -4,7 +4,7 @@
 
 @section('container')
 <div class="container">
-  <button> Planner </button>
-  <button> Lettering </button>
+  <button><a href="/planner">Planner</a> </button>
+  <button><a href="/sertifikat">Sertifikat</a></button>
 </div>
 @endsection
