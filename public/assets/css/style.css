@@ -493,17 +493,18 @@ h6 {
 
 #hero h1 {
     margin: 0;
-    font-size: 48px;
+    font-size: 80px;
     font-weight: 700;
     line-height: 56px;
-    text-transform: uppercase;
-    color: #2c4964;
+    color: #fda500;
+    font-family: "Sofia";
 }
 
 #hero h2 {
-    color: #2c4964;
+    color: #000000;
     margin: 10px 0 0 0;
-    font-size: 24px;
+    font-size: 20px;
+    font-family: 'Alata';
 }
 
 #hero .btn-get-started {
@@ -518,7 +519,7 @@ h6 {
     border-radius: 50px;
     transition: 0.5s;
     color: #fff;
-    background: #6C5CE7;
+    background: #fda500;
 }
 
 #hero .btn-get-started:hover {
