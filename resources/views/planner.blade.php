@@ -3,20 +3,15 @@
 @section('title', 'Planner | buatPlanner')
 
 @section('container')
-<div class="container">
-    <p>Pilih template
-    <p>Planner Harian
-    <p>Planner Mingguan
-    <p>Planner Bulanan
-</div>
-@endsection
+
+
 
 <!-- ======= planner Section ======= -->
 <section id="services" class="services">
       <div class="container">
 
         <div class="section-title">
-          <h2>Pilih Planner</h2>
+          <h2>Planner Harian</h2>
           <p>Pilih template sertifikat sesuai keinginan mu.</p>
         </div>
 
@@ -27,7 +22,25 @@
               style="width:270px;height:370px;box-shadow: 5px 5px 5px #ccc;"></img>
             </div>
           </div>
+      </div>
 
+      <div class="section-title">
+          <h2>Planner Mingguan</h2>
+          <p>Pilih template sertifikat sesuai keinginan mu.</p>
+        </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <img src=""
+              style="width:270px;height:370px;box-shadow: 5px 5px 5px #ccc;"></img>
+            </div>
+          </div>
+        </div>
+
+      <div class="section-title">
+          <h2>Planner Bulanan</h2>
+          <p>Pilih template sertifikat sesuai keinginan mu.</p>
+        </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
@@ -35,6 +48,6 @@
               style="width:270px;height:370px;box-shadow: 5px 5px 5px #ccc;"></img>
             </div>
           </div>
-
-      </div>
+          </div>
     </section><!-- End planner Section -->
+    @endsection
