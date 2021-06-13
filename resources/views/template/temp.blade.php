@@ -22,24 +22,28 @@
     <link href="assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets\css\style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="\assets\img\icon.ico?v=<?php echo time(); ?>">
 
     <title>@yield('title')</title>
 </head>
    
 <body>
-  <div id="header" class="navbar fixed-top d-flex align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-      <h1 class="logo mr-auto"><a style="font-family:'Sofia';"href="/">buatPlanner</a></h1>
-      <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="/tutorial">Tutorial</a>
-        <a class="p-2 text-dark" href="/contactus">Contact Us</a>
-      </nav>
+  <nav id="header" class="navbar fixed-top d-flex align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <a class="logo navbar-brand text-dark" style="font-family:Sofia" href="/">
+      <img src="\assets\img\icon.png" width="28" height="28" class="d-inline-block align-top" alt="">
+      buatPlanner
+    </a>
+    <div class="my-2 my-md-0 mr-md-3">
+      <a class="p-2 text-dark" href="/tutorial">Tutorial</a>
+      <a class="p-2 text-dark" href="/contactus">Contact Us</a>
     </div>
+  </nav>
     
     @yield('container')
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
 </body>
 </html>

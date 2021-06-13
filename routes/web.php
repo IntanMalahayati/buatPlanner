@@ -31,3 +31,10 @@ Route::get('/contactus', function () {
 Route::get('/kategori', function () {
     return view('kategori');
 });
+
+Route::get('/planner', function () {
+    return view('planner');
+});
+Route::get('/sertifikat', function () {
+    return view('sertifikat');
+});
