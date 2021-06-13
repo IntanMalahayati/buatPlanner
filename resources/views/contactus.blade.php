@@ -12,7 +12,7 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
 
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
-    <h1 class="logo mr-auto"><a href="/">buatPlanner</a></h1>
+    <h1 class="logo mr-auto"><a style="font-family:'Sofia';"href="/">buatPlanner</a></h1>
     <nav class="nav-menu d-none d-lg-block">
       <ul>
         <li><a href="/">Home</a></li>

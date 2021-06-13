@@ -24,3 +24,7 @@ Route::get('/tutorial', function () {
 Route::get('/contactus', function () {
     return view('contactus');
 });
+Route::get('/kategori', function () {
+    return view('kategori');
+});
+
