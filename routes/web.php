@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
 Route::get('/', function () {
     return view('home');
 });
@@ -27,4 +31,3 @@ Route::get('/contactus', function () {
 Route::get('/kategori', function () {
     return view('kategori');
 });
-
