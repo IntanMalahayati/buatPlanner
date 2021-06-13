@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>buatPlanner|Home</title>
-</head>
-    <!--css here-->
+    <title>buatPlanner | Contact Us</title>
+     <!--css here-->
     <!-- Favicons -->
     <!--<link href="assets/img/icondapemas-1.png" rel="icon">
     <link href="assets/img/icondapemas-1.png" rel="apple-touch-icon">-->
@@ -26,10 +25,11 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+</head>
 <body>
-    <div class="container d-flex">
+<div class="container d-flex">
       <div class="contact-info mr-auto">
-        
+       
       </div>
     </div>  <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
@@ -41,12 +41,16 @@
     <h1 class="logo mr-auto"><a href="/">buatPlanner</a></h1>
     <nav class="nav-menu d-none d-lg-block">
       <ul>
-        <li class="active"><a href="/">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="/tutorial">Tutorial</a></li>
-        <li><a href="/contactus">Contact Us</a></li>
+        <li class="active"><a href="/contactus">Contact Us</a></li>
       </ul>
       </nav><!-- .nav-menu -->
     </div>
   </header><!-- End Header -->
+    <br><br><br><br><br>
+    <p>Email :
+    <p>sri.hr@mhs.unsyiah.ac.id
+    <p>intan31@mhs.unsyiah.ac.id
 </body>
 </html>
