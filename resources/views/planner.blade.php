@@ -18,8 +18,10 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
+            <a href="/planner/formplanner">
               <img src="\assets\planner\Pastel-Daily-Planner.jpg"
               style="width:270px;height:370px;box-shadow: 5px 5px 5px #ccc;"></img>
+              </a>
             </div>
           </div>
       </div>
