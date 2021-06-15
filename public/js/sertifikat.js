@@ -1,4 +1,4 @@
-const canvas = document.getElementById('canvas')
+const canvas = document.getElementById('canvassertif')
 const ctx = canvas.getContext('2d')
 const nameInput = document.getElementById('name')
 const tujuanInput = document.getElementById('tujuan')

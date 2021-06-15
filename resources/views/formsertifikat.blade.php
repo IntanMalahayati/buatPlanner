@@ -28,8 +28,9 @@
 </label>
 <br>
 
-<canvas id="canvas" height="350px" width="500px" ></canvas>
+
+<canvas id="canvassertif" height="350px" width="500px" ></canvas>
 <br>
-<a href="#" id="download-btn">Downlaod Sertifikat</a>
+<a href="#" id="download-btn">Download Sertifikat</a>
 <script src="/js/sertifikat.js"></script>
 @endsection
