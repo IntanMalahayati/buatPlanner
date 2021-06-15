@@ -14,8 +14,9 @@
     <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
         <div class="icon-box">
-          <img src="\assets\planner\daily1.jpg" style="width:270px;height:370px;box-shadow: 5px 5px 5px #ccc;"></img>
-        </div>
+          <a href="formPlanner"><img src="\assets\planner\daily1.jpg"
+            style="width:270px;height:370px;box-shadow: 5px 5px 5px #ccc;"></img></a>
+          </div>
       </div>
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
         <div class="icon-box">

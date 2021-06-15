@@ -35,10 +35,50 @@
       buatPlanner
     </a>
     <div class="my-2 my-md-0 mr-md-3">
-      <a class="p-2 text-dark" href="/tutorial">Tutorial</a>
-      <a class="p-2 text-dark" href="/contactus">Contact Us</a>
+      <a class="p-2 text-dark" data-target="#tutorial" data-toggle="modal" href="#tutorial">Tutorial</a>
+      <a class="p-2 text-dark" data-target="#contactUs" data-toggle="modal" href="#contactus">Contact Us</a>
     </div>
   </nav>
+
+  <div class="modal fade" id="tutorial" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title">Tutorial</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>1. Pilih Jenis Planner Kebutuhan mu
+          <br>2. Pilih Template sesuai keinginan mu
+          <br>3. Isi rencana mu
+          <br>4. Cetak </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="contactUs" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <p>Email :
+        <p>sri.hr@mhs.unsyiah.ac.id
+        <p>intan31@mhs.unsyiah.ac.id
+        </div>
+      </div>
+    </div>
+  </div>
+
     
     @yield('container')
 

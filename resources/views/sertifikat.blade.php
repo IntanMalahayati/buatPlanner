@@ -14,7 +14,8 @@
     <div class="row">
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
         <div class="icon-box">
-          <img src="\assets\sertifikat\ser-ijo-fill.jpg" style="width:270px;height:200px;box-shadow: 5px 5px 5px #ccc;"></img>
+          <a href="formSertifikat"><img src="\assets\sertifikat\ser-ijo-fill.jpg"
+            style="width:270px;height:200px;box-shadow: 5px 5px 5px #ccc;"></img></a>
         </div>
       </div>      
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
