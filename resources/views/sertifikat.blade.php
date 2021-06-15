@@ -13,8 +13,8 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
-              <img src="\assets\sertifikat\ser-ijo-fill.jpg"
-              style="width:270px;height:200px;box-shadow: 5px 5px 5px #ccc;"></img>
+              <a href="/sertifikat/formsertifikat"><img src="\assets\sertifikat\ser-ijo-fill.jpg"
+              style="width:270px;height:200px;box-shadow: 5px 5px 5px #ccc;"></img></a>
             </div>
           </div>
 
