@@ -41,17 +41,9 @@
                 </form>
             </div>
 
-            <!-- <div class="col-lg-6 text-center">
-                <canvas class="text-center" id="canvas" height="700px" width="520px" ></canvas><br>
-                <div class="d-grid mt-2 ml-5" style="width: 520px;"><a  class="btn btn-primary btn-xl disabled"href="#" id="download-jpg-btn">Download!</a>&nbsp;&nbsp;</div>
-                <!-- <div class="d-grid"><button class="btn btn-light btn-xl disabled" id="submitButton" type="submit">Submit</button></div> -->
-                <!--<a href="#" id="download-pdf-btn">Downlaod PDF</a>-->
-                <!-- <script src="/js/planner.js"></script>
-            </div>  -->
             <div class="col-md-6 mb-3">
                 <canvas class="text-center" id="canvassertif" height="350px" width="500px" ></canvas><br>
                 <div class="text-center"><a  class="btn btn-primary btn-xl" href="#" id="download-btn">Download!</a>&nbsp;&nbsp;</div>
-                <!-- <a class="btn btn-primary" href="#" id="download-btn" role="button">Download Sertifikat</a> -->
                 <script src="/js/sertifikat.js"></script>
             </div>
         </div>
