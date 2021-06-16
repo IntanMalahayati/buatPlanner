@@ -38,9 +38,9 @@ Route::get('/planner', function () {
 Route::get('/sertifikat', function () {
     return view('sertifikat');
 });
-Route::get('/sertifikat/formsertifikat', function () {
-    return view('formsertifikat');
+Route::get('/formSertifikat', function () {
+    return view('formSertifikat');
 });
-Route::get('/planner/formplanner', function () {
-    return view('formplanner');
+Route::get('/formPlanner', function () {
+    return view('formPlanner');
 });

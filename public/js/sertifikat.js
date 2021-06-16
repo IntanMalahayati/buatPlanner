@@ -8,6 +8,7 @@ const statuspetinggi1Input = document.getElementById('statuspetinggi1')
 const statuspetinggi2Input = document.getElementById('statuspetinggi2')
 const downloadBtn = document.getElementById('download-btn')
 
+const colortrack = '#87A7B3'
 const image = new Image()
 image.src = '/assets/sertifikat/ser-ijo.jpg'
 image.onload = function() {
